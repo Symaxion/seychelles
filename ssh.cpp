@@ -74,7 +74,7 @@ namespace Ssh {
 
         std::vector<std::string> cmd = unescapeCmd(args[2]);        
 
-        if(cmd[0] != kScpCommand && cmd[2] != kSftpCommand) {
+        if(cmd[0] != kScpCommand && cmd[0] != kSftpCommand) {
             Log::log() << "Not an ssh command: " << args[2] << std::endl;
             return false;
         }

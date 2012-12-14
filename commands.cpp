@@ -15,7 +15,7 @@ struct Help : public Command {
 
         std::cout << 
                 "\n"
-                "    Seychelles v0.4 - Copyright (c) Frank Erens. "
+                "    Seychelles v0.4.1 - Copyright (c) Frank Erens. "
                 "All rights reserved. \n\n"
                 "Available commands:\n" << std::endl;
 
